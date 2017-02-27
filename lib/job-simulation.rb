@@ -20,7 +20,7 @@ puts "Before the simulation starts"
 puts "Employed: #{sim.workers}"
 puts "Waitlist: #{sim.waiting}"
 puts "------------------------------"
-print "<enter to cycle>\n"
+print "<enter to cycle, anything else to quit>\n"
 
 count = 0
 until gets.chomp != ""

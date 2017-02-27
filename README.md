@@ -7,7 +7,6 @@ In this project,
     - Questions to think about:
       + What should be the data type of `workers`?
       + What should be the data type of `waiting`?
-      + Should you create any private methods? For what?
   5. (OPTIONAL) On your own, you should use your implementation of stack and queue to code a solution to the job-simulation problem.
     - By "use your stack and queue", I mean at some point you should say:
       + something = `Stack.new`
@@ -35,7 +34,7 @@ Before the simulation starts
 Employed: ["Worker #1", "Worker #2", "Worker #3", "Worker #4", "Worker #5", "Worker #6"]
 Waitlist: ["Worker #7", "Worker #8", "Worker #9", "Worker #10"]
 ------------------------------
-<enter to cycle>
+<enter to cycle, anything else to quit>
 
 -------Cycle 1-------
 Managers roll a 6
