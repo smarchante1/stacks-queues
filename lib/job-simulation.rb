@@ -1,5 +1,5 @@
-require './Stack.rb'
-require './Queue.rb'
+require_relative './Stack.rb'
+require_relative './Queue.rb'
 
 class JobSimulation
   attr_reader :workers, :waiting, :roll
