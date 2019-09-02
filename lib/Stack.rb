@@ -1,21 +1,19 @@
 class Stack
   def initialize
-    @store = Array.new
+    # @store = ...
+    raise NotImplementedError, "Not yet implemented"
   end
 
   def push(element)
+    raise NotImplementedError, "Not yet implemented"
   end
 
   def pop
-  end
-
-  def top
-  end
-
-  def size
+    raise NotImplementedError, "Not yet implemented"
   end
 
   def empty?
+    raise NotImplementedError, "Not yet implemented"
   end
 
   def to_s
