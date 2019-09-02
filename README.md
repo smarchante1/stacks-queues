@@ -16,7 +16,8 @@ Using a Linked list (from a previous exercise) implement a Stack with the follow
 
 - `push(value)` - Adds the value to the top of the stack
 - `pop` - Removes and returns an element from the top of the stack
-- `empty?` returns true if the stack is empty and false otherwise
+- `empty?` - returns true if the stack is empty and false otherwise
+- `to_s` - used for testing it converts the stack into a string for printing.  The topmost elements will be last, and the bottommost elements first.
 
 ## Wave 2 Implement a Queue
 
