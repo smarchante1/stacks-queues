@@ -1,5 +1,4 @@
-require_relative './Stack.rb'
-require_relative './Queue.rb'
+require_relative './stack.rb'
 
 def balanced(string)
   raise NotImplementedError, "Not implemented yet"

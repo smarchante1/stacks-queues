@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/reporters'
-require_relative '../lib/Queue'
+require_relative '../lib/queue'
 
 Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 
