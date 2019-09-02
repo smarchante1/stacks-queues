@@ -1,6 +1,7 @@
 require 'minitest/autorun'
 require 'minitest/reporters'
 require_relative '../lib/Queue'
+
 Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 
 describe "Test Queue Implementation" do
